@@ -13,7 +13,15 @@
 ### Задание 2. Memcached.
 Установите и запустите memcached.
 *Приведите скриншот systemctl status memcached, где будет видно, что memcached запущен.*
-### Ответ
+### Ответ:
+*выполняем обновление и устанавливаем*
+```shell
+sudo apt update && apt install memcached
+```
+*проверяем статус*
+```shell
+systemctl status memcached
+```
 ![2-1](./11.2-2-001.jpg)
 ---
 
